@@ -21,6 +21,19 @@
   "author": "Irina Vinokur",
   "license": "Apache-2.0",
   "description": "Artist Portfolio and E-commerce Web Application",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^12.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "stripe": "^18.4.0",
+    "uuid": "^11.1.0"
+  },
   "devDependencies": {
     "concurrently": "^8.2.2"
   }
