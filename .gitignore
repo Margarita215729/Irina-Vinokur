@@ -16,3 +16,4 @@ uploads/
 .idea/
 coverage/
 .cache/
+.vercel
