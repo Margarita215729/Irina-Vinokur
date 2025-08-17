@@ -70,7 +70,7 @@ jspm_packages/
 # DynamoDB Local files
 .dynamodb/
 
-# Development files
+# Development files - not needed in production
 *.md
 README.md
 
@@ -96,4 +96,10 @@ Thumbs.db
 *.sqlite3
 
 # Uploads directory (for local development)
-server/uploads/
+uploads/
+
+# Development server directory (replaced by /api)
+server/
+
+# Temporary files
+/tmp/
