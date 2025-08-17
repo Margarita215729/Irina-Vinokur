@@ -30,22 +30,24 @@ function App() {
                   <Route path="/portfolio" element={<Portfolio />} />
                   <Route path="/login" element={<Login />} />
                   <Route path="/register" element={<Register />} />
-                  <Route 
-                    path="/checkout" 
+                  <Route
+                    path="/checkout"
                     element={
                       <ProtectedRoute>
                         <Checkout />
                       </ProtectedRoute>
-                    } 
+                    }
                   />
-                  <Route 
-                    path="/admin/*" 
+                  <Route
+                    path="/admin/*"
                     element={
                       <ProtectedRoute requireAdmin>
                         <AdminDashboard />
                       </ProtectedRoute>
-                    } 
+                    }
                   />
+                  {/* Catch-all route for 404 handling */}
+                  <Route path="*" element={<Home />} />
                 </Routes>
               </main>
               <Footer />
