@@ -1,40 +1,24 @@
 {
   "name": "irina-vinokur",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Artist Portfolio and E-commerce Web Application",
   "scripts": {
-    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
-    "server:dev": "cd server && npm run dev",
-    "client:dev": "cd client && npm run dev",
     "build": "cd client && npm run build",
-    "start": "cd server && npm start",
-    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install:all": "npm install && cd client && npm install",
+    "client:dev": "cd client && npm run dev",
+    "client:build": "cd client && npm run build"
   },
   "keywords": [
     "art",
     "portfolio",
     "ecommerce",
     "react",
-    "node"
+    "vercel",
+    "serverless"
   ],
   "author": "Irina Vinokur",
   "license": "Apache-2.0",
-  "description": "Artist Portfolio and E-commerce Web Application",
-  "dependencies": {
-    "bcryptjs": "^3.0.2",
-    "better-sqlite3": "^12.2.0",
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.1",
-    "express": "^5.1.0",
-    "helmet": "^8.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "morgan": "^1.10.1",
-    "multer": "^2.0.2",
-    "stripe": "^18.4.0",
-    "uuid": "^11.1.0"
-  },
-  "devDependencies": {
-    "concurrently": "^8.2.2"
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
