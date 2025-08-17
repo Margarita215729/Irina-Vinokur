@@ -2,6 +2,8 @@
 
 A modern artist portfolio and e-commerce web application deployed on Vercel. Built with React and serverless functions, featuring a Claude Monet-inspired design.
 
+🔥 **Status**: SPA routing fixed - ready for production!
+
 ## ✨ Features
 
 - 🎨 **Artist Portfolio**: Beautiful responsive gallery with category filtering
@@ -16,6 +18,7 @@ A modern artist portfolio and e-commerce web application deployed on Vercel. Bui
 ## 🚀 Tech Stack
 
 ### Frontend
+
 - React 18 with Vite
 - React Router for navigation
 - Stripe React SDK for payments
@@ -23,6 +26,7 @@ A modern artist portfolio and e-commerce web application deployed on Vercel. Bui
 - Modern CSS with custom properties
 
 ### Backend
+
 - Vercel Serverless Functions
 - Express.js API
 - SQLite database
@@ -32,17 +36,20 @@ A modern artist portfolio and e-commerce web application deployed on Vercel. Bui
 ## 🌐 Live Demo
 
 The application is deployed and running on Vercel:
+
 - **Production URL**: [Visit Portfolio](https://irina-vinokur-n75khye55-makeeva01m-gmailcoms-projects.vercel.app)
 
 ## 🛠️ Development
 
 ### Prerequisites
+
 - Node.js (v18+)
 - npm
 
 ### Local Setup
 
 1. **Clone and install**
+
    ```bash
    git clone <repository-url>
    cd Irina-Vinokur
@@ -54,11 +61,13 @@ The application is deployed and running on Vercel:
    - Set `VITE_API_URL=http://localhost:3000/api` for local development
 
 3. **Development**
+
    ```bash
    npm run client:dev  # Start client development server
    ```
 
 4. **Build for production**
+
    ```bash
    npm run build
    ```
@@ -82,6 +91,7 @@ The application is deployed and running on Vercel:
 ## 🎨 Color Palette
 
 Inspired by Claude Monet's impressionist paintings:
+
 - **Primary Blue**: #4A90A4 (Water reflections)
 - **Soft Green**: #7FB069 (Nature elements)
 - **Warm Cream**: #FAF3E0 (Light and warmth)
@@ -97,6 +107,7 @@ Inspired by Claude Monet's impressionist paintings:
 ## 🔒 Admin Access
 
 Default admin credentials:
+
 - Email: `admin@portfolio.com`
 - Password: `admin123`
 
